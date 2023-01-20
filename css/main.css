@@ -146,6 +146,11 @@ body {
     left: -150px;
   }
 }
+@media (max-width: 800px) {
+  .about-us-left {
+    display: none;
+  }
+}
 .about-us-left img {
   width: 100%;
   opacity: 0.7;
@@ -161,6 +166,11 @@ body {
 @media (max-width: 1300px) {
   .about-us-right {
     padding: 0 50px;
+  }
+}
+@media (max-width: 800px) {
+  .about-us-right {
+    width: 100%;
   }
 }
 .about-us-right .stars {
@@ -218,6 +228,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 70px;
+  gap: 15px;
 }
 .footer .social-media {
   display: flex;
@@ -250,6 +261,13 @@ body {
   letter-spacing: 2px;
   text-transform: capitalize;
 }
+@media (max-width: 800px) {
+  .footer-copyright-paragraph {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+}
 
 .hamburger-menu {
   width: 40px;
@@ -258,6 +276,12 @@ body {
   top: 10%;
   right: 5%;
   z-index: 300;
+}
+@media (max-width: 800px) {
+  .hamburger-menu {
+    width: 35px;
+    height: 35px;
+  }
 }
 .hamburger-menu .menu {
   display: flex;
@@ -272,6 +296,11 @@ body {
   background-color: #d3ab55;
   transform-origin: right;
   transition: all 0.5s 0.5s;
+}
+@media (max-width: 800px) {
+  .hamburger-menu .menu-line {
+    height: 3px;
+  }
 }
 .hamburger-menu .menu-line-2 {
   margin: 20% 0;
@@ -378,6 +407,13 @@ body {
   outline: none;
   cursor: pointer;
   transition: all 0.4s;
+}
+@media (max-width: 800px) {
+  .main-btn {
+    width: 150px;
+    height: 35px;
+    font-size: 12px;
+  }
 }
 .main-btn:hover {
   background-color: #d3ab55;

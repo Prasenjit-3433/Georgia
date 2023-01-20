@@ -6,6 +6,11 @@
     right: 5%;
     z-index: 300;
 
+    @media (max-width: 800px) {
+        width: 35px;
+        height: 35px;
+    }
+
     .menu {
         @extend %fullSpace;
         display: flex;
@@ -20,6 +25,10 @@
             background-color: $color-primary;
             transform-origin: right;
             transition: all 0.5s 0.5s;
+
+            @media (max-width: 800px) {
+                height: 3px;
+            }
         }
 
         &-line-2 {
@@ -116,6 +125,12 @@
     outline: none;
     cursor: pointer;
     transition: all 0.4s;
+
+    @media (max-width: 800px) {
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+    }
 
     &:hover {
         background-color: $color-primary;
