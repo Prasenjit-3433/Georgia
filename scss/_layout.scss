@@ -109,6 +109,10 @@
         align-items: center;
         gap: 20px;
         @include centering(15%);
+
+        @media (max-width: 500px) {
+            @include centering(12%);
+        }
     }
 
     &-banner {
@@ -198,6 +202,10 @@
                 font-size: 14px;
             }
 
+            @media (max-width: 500px) {
+                font-size: 12px;
+            }
+
         }
     }
 }
@@ -214,6 +222,10 @@
     @include flexLayout;
     flex-direction: column;
 
+    @media (max-width: 500px) {
+        padding: 40px 0;
+    }
+
     &-header {
         display: flex;
         align-items: center;
@@ -226,6 +238,11 @@
         width: 300px;
         justify-content: space-between;
         margin-bottom: 70px;
+
+        @media (max-width: 500px) {
+            width: 200px;
+            margin-bottom: 40px;
+        }
 
         &-item {
             list-style: none;
@@ -244,6 +261,10 @@
             @media (max-width: 1000px) {
                 font-size: 35px;
             }
+
+            @media (max-width: 500px) {
+                font-size: 25px;
+            }
         }
     }
 
@@ -257,6 +278,10 @@
             width: 70%;
             margin: auto;
             text-align: center;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 14px;
         }
     }
 }

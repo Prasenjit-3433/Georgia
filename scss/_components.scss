@@ -11,6 +11,11 @@
         height: 35px;
     }
 
+    @media (max-width: 500px) {
+        width: 25px;
+        height: 25px;
+    }
+
     .menu {
         @extend %fullSpace;
         display: flex;
@@ -28,6 +33,10 @@
 
             @media (max-width: 800px) {
                 height: 3px;
+            }
+
+            @media (max-width: 500px) {
+                height: 2px;
             }
         }
 
@@ -52,6 +61,13 @@
         width: 90px;
         height: 90px;
     }
+
+    @media (max-width: 500px) {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        border-width: 2px;
+    }
 }
 
 .main-name {
@@ -63,6 +79,12 @@
     @media (max-width: 1000px) {
         font-size: 40px;
     }
+    
+    @media (max-width: 500px) {
+        font-size: 20px;
+        text-align: center;
+    }
+    
 }
 
 .sub-name {
@@ -71,6 +93,11 @@
     color: $color-secondary;
     text-align: center;
     @include textStyles;
+
+    @media (max-width: 500px) {
+        font-size: 12px;
+        text-align: center;
+    }
 }
 
 .main-heading {
@@ -87,6 +114,12 @@
     @media (max-width: 1000px) {
         font-size: 60px;
     }
+    
+    @media (max-width: 500px) {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
 }
 
 .sub-heading {
@@ -110,6 +143,11 @@
     @media (max-width: 1000px) {
         font-size: 30px;
     }
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
 }
 
 .main-btn {
@@ -130,6 +168,12 @@
         width: 150px;
         height: 35px;
         font-size: 12px;
+    }
+
+    @media (max-width: 500px) {
+        width: 130px;
+        height: 30px;
+        font-size: 10px;
     }
 
     &:hover {
@@ -172,6 +216,10 @@
             @media (max-width: 650px) {
                 font-size: 25px;
             }
+
+            @media (max-width: 650px) {
+                display: none;
+            }
         }
 
         &-paragraph {
@@ -186,6 +234,10 @@
 
             @media (max-width: 650px) {
                 font-size: 15px;
+            }
+
+            @media (max-width: 650px) {
+                display: none;
             }
         }
 
