@@ -2,9 +2,11 @@
   "name": "Restaurant",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "build": "sass --watch --no-source-map scss:css"
+    "build": "npm-run-all sass watch",
+    "sass": "npm install -g sass",
+    "watch": "sass --watch --no-source-map scss:css"
   },
   "keywords": [],
   "author": "",
