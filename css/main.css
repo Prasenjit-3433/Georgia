@@ -454,6 +454,11 @@ body {
     font-size: 35px;
   }
 }
+@media (max-width: 650px) {
+  .card-overlay-heading {
+    font-size: 25px;
+  }
+}
 .card-overlay-paragraph {
   font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
@@ -465,6 +470,11 @@ body {
 @media (max-width: 900px) {
   .card-overlay-paragraph {
     font-size: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .card-overlay-paragraph {
+    font-size: 15px;
   }
 }
 .card-overlay-btn {
@@ -486,6 +496,13 @@ body {
   .card-overlay-btn {
     font-size: 12px;
     width: 130px;
+    height: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .card-overlay-btn {
+    font-size: 10px;
+    width: 100px;
     height: 30px;
   }
 }
