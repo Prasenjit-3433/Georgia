@@ -35,7 +35,14 @@
     height: 110px;
     border: 3px solid $color-primary;
     border-radius: 50%;
+    text-decoration: none;
     @include flexLayout;
+
+    @media (max-width: 1000px) {
+        font-size: 50px;
+        width: 90px;
+        height: 90px;
+    }
 }
 
 .main-name {
@@ -43,6 +50,10 @@
     font-size: 50px;
     color: $color-secondary;
     @include textStyles;
+
+    @media (max-width: 1000px) {
+        font-size: 40px;
+    }
 }
 
 .sub-name {
@@ -63,6 +74,10 @@
     @media (max-width: 1600px) {
         font-size: 80px;
     }
+
+    @media (max-width: 1000px) {
+        font-size: 60px;
+    }
 }
 
 .sub-heading {
@@ -81,6 +96,10 @@
     @media (max-width: 1300px) {
         font-size: 40px;
         margin-bottom: 30px;
+    }
+
+    @media (max-width: 1000px) {
+        font-size: 30px;
     }
 }
 
