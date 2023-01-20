@@ -167,6 +167,11 @@ body {
 .about-us-right .description::first-letter {
   padding-left: 50px;
 }
+@media (max-width: 1600px) {
+  .about-us-right .description {
+    font-size: 18px;
+  }
+}
 
 .gallery .cards-wrapper {
   display: flex;
@@ -276,6 +281,11 @@ body {
   color: #d3ab55;
   margin-bottom: 40px;
 }
+@media (max-width: 1600px) {
+  .main-heading {
+    font-size: 80px;
+  }
+}
 
 .sub-heading {
   font-family: "Josefin Sans", sans-serif;
@@ -283,6 +293,13 @@ body {
   font-weight: 300;
   color: #bbb;
   margin-bottom: 80px;
+  text-align: center;
+}
+@media (max-width: 1600px) {
+  .sub-heading {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
 }
 
 .main-btn {
