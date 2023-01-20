@@ -1,4 +1,4 @@
-.card-img, .card-overlay {
+.card-img, .card-overlay, .hamburger-menu .menu {
   width: 100%;
   height: 100%;
 }
@@ -24,7 +24,7 @@ body {
   height: 100vh;
   background-color: #262626;
   position: fixed;
-  left: 0;
+  left: -50vw;
 }
 .navbar-navigation-left .left-img {
   width: 50%;
@@ -50,7 +50,7 @@ body {
   height: 100vh;
   background-color: #1f1d1d;
   position: fixed;
-  right: 0;
+  right: -50vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,6 +184,28 @@ body {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: capitalize;
+}
+
+.hamburger-menu {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 10%;
+  right: 5%;
+}
+.hamburger-menu .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.hamburger-menu .menu-line {
+  width: 100%;
+  height: 4px;
+  background-color: #d3ab55;
+}
+.hamburger-menu .menu-line-2 {
+  margin: 20% 0;
 }
 
 .logo {
