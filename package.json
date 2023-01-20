@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "npm-run-all sass watch",
-    "sass": "npm install -g sass",
     "watch": "sass --watch --no-source-map scss:css"
   },
   "keywords": [],
