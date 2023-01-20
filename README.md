@@ -119,7 +119,7 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 * Sass - the npm library
-  ![SASS/SCSS]("sass.png")
+  ![SASS/SCSS](sass.png)
 * Live Server Extension
   ![Live-Server](liveserver.png)
 
