@@ -137,6 +137,11 @@ body {
   position: relative;
   left: -200px;
 }
+@media (max-width: 1300px) {
+  .about-us-left {
+    left: -150px;
+  }
+}
 .about-us-left img {
   width: 100%;
   opacity: 0.7;
@@ -148,6 +153,11 @@ body {
   align-items: center;
   padding: 0 100px;
   box-sizing: border-box;
+}
+@media (max-width: 1300px) {
+  .about-us-right {
+    padding: 0 50px;
+  }
 }
 .about-us-right .stars {
   margin: 30px 0;
@@ -299,6 +309,12 @@ body {
   .sub-heading {
     font-size: 50px;
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 1300px) {
+  .sub-heading {
+    font-size: 40px;
+    margin-bottom: 30px;
   }
 }
 
