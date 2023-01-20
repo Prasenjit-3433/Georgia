@@ -149,6 +149,10 @@
             font-family: $font-nunito;
             font-size: 50px;
             @include textStyles(capitalize);
+
+            @media (max-width: 900px) {
+                font-size: 35px;
+            }
         }
 
         &-paragraph {
@@ -156,6 +160,10 @@
             font-size: 30px;
             margin-bottom: 30px;
             @include textStyles(capitalize);
+
+            @media (max-width: 900px) {
+                font-size: 20px;
+            }
         }
 
         &-btn {
@@ -172,6 +180,12 @@
             border-radius: 30px;
             outline: none;
             cursor: pointer;
+
+            @media (max-width: 900px) {
+                font-size: 12px;
+                width: 130px;
+                height: 30px;
+            }
         }
     }
 

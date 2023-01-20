@@ -121,8 +121,10 @@
     height: 90vh;
     display: flex;
     align-items: center;
-    // extra edded:
-    padding: 100px 0;
+
+    @media (max-width: 900px) {
+        height: 70vh;
+    }
     
     &-left {
         width: 40%;

@@ -130,7 +130,11 @@ body {
   height: 90vh;
   display: flex;
   align-items: center;
-  padding: 100px 0;
+}
+@media (max-width: 900px) {
+  .about-us {
+    height: 70vh;
+  }
 }
 .about-us-left {
   width: 40%;
@@ -409,6 +413,11 @@ body {
   letter-spacing: 2px;
   text-transform: capitalize;
 }
+@media (max-width: 900px) {
+  .card-overlay-heading {
+    font-size: 35px;
+  }
+}
 .card-overlay-paragraph {
   font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
@@ -416,6 +425,11 @@ body {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: capitalize;
+}
+@media (max-width: 900px) {
+  .card-overlay-paragraph {
+    font-size: 20px;
+  }
 }
 .card-overlay-btn {
   width: 150px;
@@ -431,6 +445,13 @@ body {
   border-radius: 30px;
   outline: none;
   cursor: pointer;
+}
+@media (max-width: 900px) {
+  .card-overlay-btn {
+    font-size: 12px;
+    width: 130px;
+    height: 30px;
+  }
 }
 .card-img {
   object-fit: cover;
