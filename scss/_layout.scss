@@ -13,27 +13,51 @@
             left: -50vw;
             transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 
+            @media (max-width: 800px) {
+                display: none;
+            }
+
             .left-img {
                 width: 50%;
                 position: absolute;
                 box-shadow: 0 15px 60px rgba($color-black, 0.4);
                 opacity: 0.7;
                 border-radius: 10px;
+
+                @media (max-width: 1300px) {
+                    width: 55%;
+                }
+
+                @media (max-width: 1000px) {
+                    width: 65%;
+                }
             }
 
             .left-img-1 {
                 top: 15%;
                 left: 15%;
+
+                @media (max-width: 1000px) {
+                    left: 5%;
+                }
             }
 
             .left-img-2 {
                 top: 35%;
                 left: 25%;
+
+                @media (max-width: 1000px) {
+                    left: 15%;
+                }
             }
 
             .left-img-3 {
                 top: 55%;
                 left: 35%;
+
+                @media (max-width: 1000px) {
+                    left: 25%;
+                }
             }
         }
 
@@ -45,6 +69,11 @@
             right: -50vw;
             transition: right 0.8s cubic-bezier(1, 0, 0, 1);
             @include flexLayout;
+
+            @media (max-width: 800px) {
+                width: 100vw;
+                right: -100vw;
+            }
 
             .nav-list {
                 &-item {
@@ -61,6 +90,10 @@
                     margin: 20px;
                     text-align: center;
                     transition: all 0.5s;
+
+                    @media (max-width: 600px) {
+                        font-size: 40px;
+                    }
 
                     &:hover{
                         color: $color-primary;
