@@ -37,7 +37,7 @@
 <h3 align="center">Restaurant Georgia</h3>
 
   <p align="center">
-    A modern landing page of restaurant feat. SASS/SCSS 😎
+    A modern landing page for restaurant feat. SASS/SCSS 😎
     <br />
     <a href="https://github.com/Prasenjit-3433/Georgia"><strong>Explore the docs »</strong></a>
     <br />
@@ -129,11 +129,10 @@ This is an example of how to list things you need to use the software and how to
 ```bash
 npm install -g sass
 ```
-2. Once the library was installed, then run the following command on terminal.
+2. Once the library was installed, then run the following command on terminal. This will watch the `scss` folder for any future changes and compile down scss to css accordingly.
 ```bash
 npm run watch
 ```
-This will watch the `scss` folder for any future changes and compile down scss to css accordingly.
 3. Next, install `Live Server` extension by `Ritwick Dey`. It'll moniter any changes in your code, then auto-reload the website.
 4. Once the extension was installed, then `right-click` on `index.html` and select `Open with Live Server`.
 5. It'll open a new tab in browser & start serving the webpage. Enjoy!.
@@ -148,7 +147,7 @@ This will watch the `scss` folder for any future changes and compile down scss t
 ## 💎 Features
 
 - [ ] **Simple Design**: The simple design has certain advantages over the more complicated ones. They are easier to understand, cheaper to make, and easier to fix in case there is a need to. By keeping it short and simple, you ensure that your audience isn’t unnecessarily overwhelmed and distracted from the message that you intend to convey.
-- [ ] **Drag and Drop**: Responsive design provides a better mobile experience for users and improves the general UX on pages. Not only this but a responsive design is basically becoming one of the requirements for a top ranking in `SEO`.
+- [ ] **Responsiveness**: Responsive design provides a better mobile experience for users and improves the general UX on pages. Not only this but a responsive design is basically becoming one of the requirements for a top ranking in `SEO`.
 - [ ] **Better UX**: According to an `analysis by Google` based on multiple page-loading studies, delays can significantly impact the satisfaction of users and can make them leave and never return. Optimizing your online property to look better and load faster will make it more welcoming to visitors and provide the best experience.
 
 See the [open issues](https://github.com/Prasenjit-3433/Georgia/issues) for a full list of proposed features (and known issues).
